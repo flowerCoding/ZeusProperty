@@ -7,6 +7,10 @@ const menuData = [
     path: 'dashboard',
     children: [
       {
+        name: '测试页',
+        path: 'testpage',
+      },
+      {
         name: '分析页',
         path: 'analysis',
       },
