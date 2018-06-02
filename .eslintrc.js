@@ -59,6 +59,8 @@ module.exports = {
     'function-paren-newline': [0],
     'no-restricted-globals': [0],
     'require-yield': [1],
+    'linebreak-style': [0, 'error', 'windows'], //允许windows开发环境
+    indent: [4, 'tab', { SwitchCase: 1 }],
   },
   parserOptions: {
     ecmaFeatures: {
